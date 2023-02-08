@@ -32,7 +32,7 @@ spec:
       type: string
       description: S2I image version
   tasks:
-    - name: fetch-repository
+    - name: fetch-repo
       params:
         - name: url
           value: $(params.GIT_REPO)
